@@ -1,0 +1,8 @@
+POST http://localhost:3500/v1.0/state/statestore
+Content-Type: application/json
+
+[{"key": "x", "value": "this is a test 2"}]
+
+###
+
+GET http://localhost:3500/v1.0/state/statestore/x

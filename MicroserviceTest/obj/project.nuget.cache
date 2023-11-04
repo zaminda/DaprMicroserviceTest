@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "xRH1r27TQqXMyn4ukwl8dzSEhSbQsCh51gcYsJ+4wuT88jhSetVVN94gme5PItBBSeyUy8ajgEcVD9w6+YHwxA==",
+  "success": true,
+  "projectFilePath": "/Users/saminda/git/MicroserviceTest/MicroserviceTest/MicroserviceTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/saminda/.nuget/packages/dapr.aspnetcore/1.12.0/dapr.aspnetcore.1.12.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/dapr.client/1.12.0/dapr.client.1.12.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/google.api.commonprotos/2.2.0/google.api.commonprotos.2.2.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/google.protobuf/3.15.0/google.protobuf.3.15.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/grpc.core.api/2.52.0/grpc.core.api.2.52.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/grpc.net.client/2.52.0/grpc.net.client.2.52.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/grpc.net.common/2.52.0/grpc.net.common.2.52.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/microsoft.extensions.logging.abstractions/3.0.3/microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/system.io.pipelines/4.7.2/system.io.pipelines.4.7.2.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
+    "/Users/saminda/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
