@@ -29,7 +29,7 @@ app.MapPost("/message", async (ILogger<Program> logger, HttpRequest request) =>
 app.UseCloudEvents(); // used for dapr pubsub
 
 app.UseRouting();
-app.UseEndpoints(endpoints => endpoints.MapSubscribeHandler());
+app.MapSubscribeHandler();
 
 app.Run();
 
