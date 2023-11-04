@@ -9,10 +9,12 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapPost("/test", (DaprClient dc,  MyData data) =>
+app.MapPost("/test", async (DaprClient dc,  MyData data) =>
 {
     var x = new MyData(Text: data.Text + Environment.TickCount);
-    dc.SaveStateAsync("mystore", data.Text, x.Text);
+    await dc.SaveStateAsync("mystore", data.Text, x.Text);
+
+    await dc.PublishEventAsync("pubsub", "newtest", x);
     return Results.Ok(x);
 });
 
