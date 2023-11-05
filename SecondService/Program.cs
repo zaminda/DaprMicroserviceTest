@@ -26,6 +26,13 @@ app.MapPost("/message", async (ILogger<Program> logger, HttpRequest request) =>
     return Results.NoContent();
 }).WithTopic("pubsub", "newtest");
 
+app.MapPost("/mysched", async (ILogger<Program> logger, HttpRequest request) =>
+{
+    var body = new StreamReader(request.Body);
+    logger.LogInformation($"sched ->  {await body.ReadToEndAsync()}");
+    return Results.NoContent();
+});
+
 app.UseCloudEvents(); // used for dapr pubsub
 
 app.UseRouting();

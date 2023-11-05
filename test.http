@@ -11,7 +11,7 @@ GET http://localhost:3500/v1.0/state/statestore/x
 POST http://localhost:5230/test 
 Content-Type: application/json
 
-{"Text": "catty"}
+{"Text": "sunday"}
 
 ###
 GET http://localhost:5230/test/ninja 
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:3501/v1.0/invoke/myapp/method/test/space 
+GET http://localhost:3501/v1.0/invoke/myapp/method/test/catty 
 Content-Type: application/json
 
 
@@ -28,10 +28,15 @@ Content-Type: application/json
 GET http://localhost:5061/hello
 Content-Type: application/json
 
-
-
 ### 
 POST http://localhost:5061/message
+Content-Type: application/json
+
+This is the crazy body! more text
+can be sent?
+
+### 
+POST http://localhost:5061/scheduled
 Content-Type: application/json
 
 This is the crazy body! more text
